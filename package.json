@@ -1,0 +1,22 @@
+{
+    "name" : "wn-postprocessor-jswrapper",
+    "description" : "A postprocessor plugin for wn to wrap javascript with closure or amd define.",
+    "version" : "0.0.1",
+    "author": "snail-team <passtome@foxmail.com>",
+    "homepage" : "https://github.com/snail-team/wn-postprocessor-jswrapper",
+    "repository": {
+    "type": "git",
+    "url": "git@github.com:snail-team/wn-postprocessor-jswrapper.git"
+     },
+    "bugs": {
+    "url": "https://github.com/snail-team/wn-postprocessor-jswrapper/issues"
+    },
+    "keywords": [ "wn","wn-postprocessor-jswrapper" ],
+    "main" : "index.js",
+    "engines" : {
+        "node" : ">= 0.8.0"
+    },
+    "scripts" : {
+        "test" : "mocha test/ut --recursive"
+    }
+}
